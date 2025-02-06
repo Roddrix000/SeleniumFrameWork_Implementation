@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [SmokeSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="RonaldFredrick_Automation.TestComponent.Listeners"/>
+  </listeners>
+  <test thread-count="10" name="ShoppingCart_Validation_add_And_Delete(failed)" verbose="0">
+    <classes>
+      <class name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_add_And_Delete">
+        <methods>
+          <include name="Add_and_Delete_Product_From_Cart" invocation-numbers="0"/>
+          <include name="teraDown"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_add_And_Delete -->
+    </classes>
+  </test> <!-- ShoppingCart_Validation_add_And_Delete(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

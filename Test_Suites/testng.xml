@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="SmokeSuite">
+	<listeners>
+		<listener class-name="RonaldFredrick_Automation.TestComponent.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="ShoppingCart_Validation_add_And_Delete">
+		<classes>
+			<class
+				name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_add_And_Delete" />
+		</classes>
+	</test>
+	<test thread-count="5" name="UserAuthentication_Validation_Valid">
+		<classes>
+			<class
+				name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Valid" />
+		</classes>
+	</test>
+	<test thread-count="5" name="ShoppingCart_Validation_Add_to_Cart">
+		<classes>
+			<class
+				name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_Add_to_Cart" />
+		</classes>
+	</test>
+	<test name="UserAuthentication_Validation_Invalid">
+		<classes>
+			<class
+				name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Invalid" />
+		</classes>
+	</test>
+	<test thread-count="5" name="UserRegistration_Validation">
+		<classes>
+			<class
+				name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserRegistration_Validation" />
+		</classes>
+	</test>
+</suite>
+
+
+
+
+
+
+

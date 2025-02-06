@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke_Suite">
+	<listeners>
+		<listener class-name="RonaldFredrick_Automation.TestComponent.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class
+				name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_add_And_Delete" />
+			<class
+				name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Valid" />
+			<class
+				name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.Read_data_From_JSON" />
+			<class
+				name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.Login_validation" />
+			<class
+				name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_Add_to_Cart" />
+			<class
+				name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Invalid" />
+			<class
+				name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserRegistration_Validation" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Smoke_Suite -->

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [SmokeSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="RonaldFredrick_Automation.TestComponent.Listeners"/>
+  </listeners>
+  <test thread-count="10" name="ShoppingCart_Validation_add_And_Delete(failed)">
+    <classes>
+      <class name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_add_And_Delete">
+        <methods>
+          <include name="Add_and_Delete_Product_From_Cart"/>
+          <include name="teraDown"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_add_And_Delete -->
+    </classes>
+  </test> <!-- ShoppingCart_Validation_add_And_Delete(failed) -->
+  <test thread-count="10" name="UserAuthentication_Validation_Valid(failed)">
+    <classes>
+      <class name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Valid">
+        <methods>
+          <include name="teraDown"/>
+          <include name="initializeDriver"/>
+          <include name="validLogin"/>
+        </methods>
+      </class> <!-- RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Valid -->
+    </classes>
+  </test> <!-- UserAuthentication_Validation_Valid(failed) -->
+  <test thread-count="10" name="ShoppingCart_Validation_Add_to_Cart(failed)">
+    <classes>
+      <class name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_Add_to_Cart">
+        <methods>
+          <include name="teraDown"/>
+          <include name="initializeDriver"/>
+          <include name="Add_productTo_cart"/>
+        </methods>
+      </class> <!-- RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_Add_to_Cart -->
+    </classes>
+  </test> <!-- ShoppingCart_Validation_Add_to_Cart(failed) -->
+  <test thread-count="10" name="UserAuthentication_Validation_Invalid(failed)">
+    <classes>
+      <class name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Invalid">
+        <methods>
+          <include name="teraDown"/>
+          <include name="initializeDriver"/>
+          <include name="inValidLogin"/>
+        </methods>
+      </class> <!-- RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Invalid -->
+    </classes>
+  </test> <!-- UserAuthentication_Validation_Invalid(failed) -->
+  <test thread-count="10" name="UserRegistration_Validation(failed)">
+    <classes>
+      <class name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserRegistration_Validation">
+        <methods>
+          <include name="teraDown"/>
+          <include name="initializeDriver"/>
+          <include name="registration_Validation"/>
+        </methods>
+      </class> <!-- RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserRegistration_Validation -->
+    </classes>
+  </test> <!-- UserRegistration_Validation(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

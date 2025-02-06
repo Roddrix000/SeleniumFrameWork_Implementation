@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-05T13:46:12 IST" name="SmokeSuite" finished-at="2025-02-05T13:47:40 IST" duration-ms="88316">
+    <groups>
+      <group name="LoginScenarios">
+        <method signature="UserAuthentication_Validation_Valid.validLogin(java.lang.String,java.lang.String)[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Valid@3e0e1046]" name="validLogin" class="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Valid"/>
+      </group> <!-- LoginScenarios -->
+    </groups>
+    <test started-at="2025-02-05T13:46:12 IST" name="ShoppingCart_Validation_add_And_Delete" finished-at="2025-02-05T13:47:10 IST" duration-ms="58630">
+      <class name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_add_And_Delete">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_add_And_Delete@338fc1d8]" started-at="2025-02-05T13:46:12 IST" name="initializeDriver" finished-at="2025-02-05T13:46:15 IST" duration-ms="3502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="Add_and_Delete_Product_From_Cart(java.util.HashMap)[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_add_And_Delete@338fc1d8]" started-at="2025-02-05T13:46:15 IST" name="Add_and_Delete_Product_From_Cart" data-provider="getData" finished-at="2025-02-05T13:46:46 IST" duration-ms="31080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, productName=qwerty, username=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_and_Delete_Product_From_Cart -->
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_add_And_Delete@338fc1d8]" started-at="2025-02-05T13:46:46 IST" name="teraDown" finished-at="2025-02-05T13:46:47 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_add_And_Delete@338fc1d8]" started-at="2025-02-05T13:46:47 IST" name="initializeDriver" finished-at="2025-02-05T13:46:50 IST" duration-ms="3556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="Add_and_Delete_Product_From_Cart(java.util.HashMap)[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_add_And_Delete@338fc1d8]" started-at="2025-02-05T13:46:50 IST" name="Add_and_Delete_Product_From_Cart" data-provider="getData" finished-at="2025-02-05T13:47:10 IST" duration-ms="19737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Password@123, productName=Banarsi Saree, username=samicex570@hdrlog.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_and_Delete_Product_From_Cart -->
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_add_And_Delete@338fc1d8]" started-at="2025-02-05T13:47:10 IST" name="teraDown" finished-at="2025-02-05T13:47:10 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+      </class> <!-- RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_add_And_Delete -->
+    </test> <!-- ShoppingCart_Validation_add_And_Delete -->
+    <test started-at="2025-02-05T13:47:11 IST" name="UserAuthentication_Validation_Valid" finished-at="2025-02-05T13:47:15 IST" duration-ms="4871">
+      <class name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Valid">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Valid@3e0e1046]" started-at="2025-02-05T13:47:11 IST" name="initializeDriver" finished-at="2025-02-05T13:47:12 IST" duration-ms="1752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Valid@3e0e1046]" started-at="2025-02-05T13:47:12 IST" name="validLogin" data-provider="getData" finished-at="2025-02-05T13:47:13 IST" duration-ms="385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anshika@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Iamking@000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Valid@3e0e1046]" started-at="2025-02-05T13:47:13 IST" name="teraDown" finished-at="2025-02-05T13:47:13 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Valid@3e0e1046]" started-at="2025-02-05T13:47:13 IST" name="initializeDriver" finished-at="2025-02-05T13:47:15 IST" duration-ms="1802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Valid@3e0e1046]" started-at="2025-02-05T13:47:15 IST" name="validLogin" data-provider="getData" finished-at="2025-02-05T13:47:15 IST" duration-ms="442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samicex570@hdrlog.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Valid@3e0e1046]" started-at="2025-02-05T13:47:15 IST" name="teraDown" finished-at="2025-02-05T13:47:15 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+      </class> <!-- RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Valid -->
+    </test> <!-- UserAuthentication_Validation_Valid -->
+    <test started-at="2025-02-05T13:47:15 IST" name="ShoppingCart_Validation_Add_to_Cart" finished-at="2025-02-05T13:47:29 IST" duration-ms="14000">
+      <class name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_Add_to_Cart">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_Add_to_Cart@1e4f4a5c]" started-at="2025-02-05T13:47:15 IST" name="initializeDriver" finished-at="2025-02-05T13:47:17 IST" duration-ms="1753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="Add_productTo_cart(java.lang.String,java.lang.String)[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_Add_to_Cart@1e4f4a5c]" started-at="2025-02-05T13:47:17 IST" name="Add_productTo_cart" data-provider="getData" finished-at="2025-02-05T13:47:21 IST" duration-ms="4084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anshika@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Iamking@000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_productTo_cart -->
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_Add_to_Cart@1e4f4a5c]" started-at="2025-02-05T13:47:21 IST" name="teraDown" finished-at="2025-02-05T13:47:22 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_Add_to_Cart@1e4f4a5c]" started-at="2025-02-05T13:47:22 IST" name="initializeDriver" finished-at="2025-02-05T13:47:25 IST" duration-ms="3451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="Add_productTo_cart(java.lang.String,java.lang.String)[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_Add_to_Cart@1e4f4a5c]" started-at="2025-02-05T13:47:25 IST" name="Add_productTo_cart" data-provider="getData" finished-at="2025-02-05T13:47:29 IST" duration-ms="4135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samicex570@hdrlog.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_productTo_cart -->
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_Add_to_Cart@1e4f4a5c]" started-at="2025-02-05T13:47:29 IST" name="teraDown" finished-at="2025-02-05T13:47:29 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+      </class> <!-- RonaldFredrick_Automation.SeleniumFrameWork_Implementation.ShoppingCart_Validation_Add_to_Cart -->
+    </test> <!-- ShoppingCart_Validation_Add_to_Cart -->
+    <test started-at="2025-02-05T13:47:30 IST" name="UserAuthentication_Validation_Invalid" finished-at="2025-02-05T13:47:33 IST" duration-ms="3532">
+      <class name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Invalid">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Invalid@23941fb4]" started-at="2025-02-05T13:47:30 IST" name="initializeDriver" finished-at="2025-02-05T13:47:31 IST" duration-ms="1742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="inValidLogin()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Invalid@23941fb4]" started-at="2025-02-05T13:47:31 IST" name="inValidLogin" finished-at="2025-02-05T13:47:33 IST" duration-ms="1511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLogin -->
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Invalid@23941fb4]" started-at="2025-02-05T13:47:33 IST" name="teraDown" finished-at="2025-02-05T13:47:33 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+      </class> <!-- RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserAuthentication_Validation_Invalid -->
+    </test> <!-- UserAuthentication_Validation_Invalid -->
+    <test started-at="2025-02-05T13:47:33 IST" name="UserRegistration_Validation" finished-at="2025-02-05T13:47:40 IST" duration-ms="6791">
+      <class name="RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserRegistration_Validation">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserRegistration_Validation@1f9f6368]" started-at="2025-02-05T13:47:33 IST" name="initializeDriver" finished-at="2025-02-05T13:47:35 IST" duration-ms="1652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="registration_Validation()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserRegistration_Validation@1f9f6368]" started-at="2025-02-05T13:47:35 IST" name="registration_Validation" finished-at="2025-02-05T13:47:40 IST" duration-ms="4875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration_Validation -->
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserRegistration_Validation@1f9f6368]" started-at="2025-02-05T13:47:40 IST" name="teraDown" finished-at="2025-02-05T13:47:40 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+      </class> <!-- RonaldFredrick_Automation.SeleniumFrameWork_Implementation.UserRegistration_Validation -->
+    </test> <!-- UserRegistration_Validation -->
+  </suite> <!-- SmokeSuite -->
+</testng-results>
